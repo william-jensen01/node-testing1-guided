@@ -49,11 +49,14 @@ describe('Car class', () => {
     // assert
     expect(actual).toBe(expected)
   })
-  it('drive method increases odometer by driven distance', () => {
+  it.only('drive method increases odometer by driven distance', () => {
     expect(prius.odometer).toBe(0) // do not repeat
     prius.drive(10)
     expect(prius.odometer).toBe(10)
     prius.drive(10)
     expect(prius.odometer).toBe(20)
+  })
+  it('', () => {
+
   })
 })

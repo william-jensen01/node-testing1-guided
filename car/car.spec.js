@@ -47,6 +47,6 @@ describe('Car class', () => {
     // act
     const actual = prius.drive(10)
     // assert
-    expect(actual).toReturn(expected)
+    expect(actual).toBe(expected)
   })
 })

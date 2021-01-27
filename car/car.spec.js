@@ -15,8 +15,8 @@ it('is not the same toEqual and toBe', () => {
   expect(a).toEqual(b)
   expect(a).toBe(c)
 })
-let prius
 describe('Car class', () => {
+  let prius
   beforeEach(() => {
     prius = new Car('toyota', 'prius')
   })

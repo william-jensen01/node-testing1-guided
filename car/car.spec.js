@@ -41,4 +41,7 @@ describe('Car class', () => {
     expect(prius.drive).toBeInstanceOf(Function)
     expect(prius.drive).toBe(Car.prototype.drive)
   })
+  it('drive method returns the driven distance', () => {
+    
+  })
 })

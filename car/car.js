@@ -9,7 +9,5 @@ class Car {
   }
 }
 
-
-
 module.exports = Car
 // 2

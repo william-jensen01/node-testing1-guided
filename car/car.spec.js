@@ -39,6 +39,6 @@ describe('Car class', () => {
   })
   it('car instances have a drive method', () => {
     expect(prius.drive).toBeInstanceOf(Function)
-    expect(prius.drive).toBe()
+    expect(prius.drive).toBe(Car.prototype.drive)
   })
 })

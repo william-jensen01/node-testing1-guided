@@ -13,5 +13,5 @@ it('is not the same toEqual and toBe', () => {
 
   expect(a).not.toBe(b)
   expect(a).toEqual(b)
-
+  expect(a).toBe(c)
 })

@@ -9,7 +9,7 @@ class Car {
     return `${distance} km driven!`
   }
   driveAsync(distance) {
-    // promises?
+    return Promise.resolve(distance)
   }
 }
 

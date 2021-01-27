@@ -21,6 +21,7 @@ describe('Car class', () => {
     expect(Car).toBeDefined()
   })
   it('creates instances of cars', () => {
-    
+    const prius = new Car('toyota', 'prius')
+    // ? 
   })
 })

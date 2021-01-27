@@ -37,5 +37,7 @@ describe('Car class', () => {
   it('has an odometer prop starting at zero', () => {
     expect(prius).toHaveProperty('odometer', 0)
   })
-  it('car instances have a drive method')
+  it('car instances have a drive method', () => {
+    // 1
+  })
 })

@@ -14,3 +14,8 @@ it('is not the same toEqual and toBe', () => {
   expect(a).toBe(c)
 })
 
+describe('Car class', () => {
+  it('exists', () => {
+    
+  })
+})

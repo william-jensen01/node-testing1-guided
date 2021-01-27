@@ -24,4 +24,5 @@ describe('Car class', () => {
     const prius = new Car('toyota', 'prius')
     expect(prius).toBeInstanceOf(Car)
   })
+  
 })

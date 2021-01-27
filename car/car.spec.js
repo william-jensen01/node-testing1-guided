@@ -11,6 +11,6 @@ it('is not the same toEqual and toBe', () => {
   let b = {}
   let c = a
 
+  expect(a).toBe(b)
 
-  
 })

@@ -42,6 +42,8 @@ describe('Car class', () => {
     expect(prius.drive).toBe(Car.prototype.drive)
   })
   it('drive method returns the driven distance', () => {
-    expect(prius.drive(10)).(10)
+    const expected = 10
+    const actual = prius.drive(10)
+    expect(prius.drive(10)).toReturn(10)
   })
 })

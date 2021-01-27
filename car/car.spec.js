@@ -15,22 +15,19 @@ it('is not the same toEqual and toBe', () => {
   expect(a).toEqual(b)
   expect(a).toBe(c)
 })
+let prius
 
 describe('Car class', () => {
-  let prius
   beforeEach(() => {
     prius = new Car('toyota', 'prius')
   })
-
   it('exists', () => {
     expect(Car).toBeDefined()
   })
   it('creates instances of cars', () => {
-    const prius = new Car('toyota', 'prius')
     expect(prius).toBeInstanceOf(Car)
   })
   it('cars have a "make" prop', () => {
-    const prius = new Car('toyota', 'prius')
     expect(prius).toHaveProperty('make', 'toyota')
     expect(prius.make).toBe('toyota')
   })

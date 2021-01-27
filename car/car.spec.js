@@ -49,4 +49,7 @@ describe('Car class', () => {
     // assert
     expect(actual).toBe(expected)
   })
+  it('drive method increases odometer by driven distance', () => {
+    // ?
+  })
 })

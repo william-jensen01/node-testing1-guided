@@ -1,4 +1,4 @@
-it('works', () => { // THE TEST
+test('sanity', () => { // THE TEST
 
   // ASSERTIONS
   expect(3).toBe(3) // eslint-disable-line

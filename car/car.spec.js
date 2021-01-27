@@ -58,14 +58,13 @@ describe('Car class', () => {
   })
   it('driveAsync method RESOLVES to the driven distance', async () => {
     // act
-    const distance = await prius.drive(10)
+    const distance = await prius.driveAsync(10)
     // assert
     expect(distance).toBe(10)
   })
   it('driveAsync method RESOLVES to the driven distance', () => {
-    // act
-    const distance = await prius.drive(10)
-    // assert
-    expect(distance).toBe(10)
+    prius.driveAsync(10).then(distance => {
+      expect(distance).toBe(10)
+    })
   })
 })

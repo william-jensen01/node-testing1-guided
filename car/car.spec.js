@@ -16,6 +16,6 @@ it('is not the same toEqual and toBe', () => {
 
 describe('Car class', () => {
   it('exists', () => {
-    
+    expect(Car).
   })
 })

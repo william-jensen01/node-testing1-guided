@@ -22,6 +22,6 @@ describe('Car class', () => {
   })
   it('creates instances of cars', () => {
     const prius = new Car('toyota', 'prius')
-    // ? 
+    expect(prius).
   })
 })

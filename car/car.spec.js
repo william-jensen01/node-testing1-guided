@@ -51,7 +51,10 @@ describe('Car class', () => {
   })
   it('drive method increases odometer by driven distance', () => {
     // act
-    
+    expect(prius.odometer).toBe(0)
     prius.drive(10)
+    expect(prius.odometer).toBe(10)
+    prius.drive(10)
+    expect(prius.odometer).toBe(20)
   })
 })

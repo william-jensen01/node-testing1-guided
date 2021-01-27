@@ -1,4 +1,4 @@
-const C
+const Car = require('./car')
 
 test('sanity', () => { // THE TEST
   // ASSERTIONS

@@ -43,7 +43,7 @@ describe('Car class', () => {
   })
   it('drive method returns the driven distance', () => {
     // arrange
-    const expected = `${}`
+    const expected = `${10} km driven!`
     // act
     const actual = prius.drive(10)
     // assert

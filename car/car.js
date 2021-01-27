@@ -1,7 +1,7 @@
-module.exports = class Car {
-
-  constructor() {
-    this.make = 'toyota'
+class Car {
+  constructor(make) {
+    this.make = make
   }
-
 }
+
+module.exports = Car

@@ -17,8 +17,10 @@ it('is not the same toEqual and toBe', () => {
 })
 
 describe('Car class', () => {
-
-  beforeEach()
+  let prius
+  beforeEach(() => {
+    prius = new Car('toyota', 'prius')
+  })
 
   it('exists', () => {
     expect(Car).toBeDefined()

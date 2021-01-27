@@ -4,8 +4,8 @@ class Car {
     this.model = model
     this.odometer = 0
   }
-  drive(numOfMeters) {
-    return numOfMeters
+  drive(distance) {
+    return distance
   }
 }
 

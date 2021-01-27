@@ -8,6 +8,9 @@ class Car {
     this.odometer += distance
     return `${distance} km driven!`
   }
+  driveAsync(distance) {
+    // promises?
+  }
 }
 
 module.exports = Car

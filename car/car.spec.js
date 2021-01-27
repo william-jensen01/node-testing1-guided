@@ -6,3 +6,11 @@ test('sanity', () => { // THE TEST
   expect(3).toBeGreaterThan(2)
 })
 
+it('is not the same toEqual and toBe', () => {
+  let a = {}
+  let b = {}
+  let c = a
+
+
+  
+})

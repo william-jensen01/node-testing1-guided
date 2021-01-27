@@ -35,6 +35,6 @@ describe('Car class', () => {
     expect(prius).toHaveProperty('model', 'prius')
   })
   it('has an odometer prop starting at zero', () => {
-    // ?
+    expect(prius).toHaveProperty('odometer', 0)
   })
 })

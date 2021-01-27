@@ -29,7 +29,7 @@ describe('Car class', () => {
   it('cars have a "make" prop', () => {
     expect(prius).toHaveProperty('make', 'toyota')
     expect(prius.make).toBe('toyota')
-    expect(prius).toEqual({ make: 'toyota' })
+    // expect(prius).toEqual({ make: 'toyota' }) //bad
   })
   it('cars have a "model" prop', () => {
     expect(prius).toHaveProperty('model', 'prius')
